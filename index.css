@@ -1,0 +1,35 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+    #top-bar {
+        height: 10vh;
+        width: 100vw;
+        background-color: #2080FF;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .title {
+            min-width: 20%;
+            height: 100%;   
+            display: flex;
+            justify-content: start;
+            color: #fff;
+            outline: 1px #222 solid;
+        }
+        .header-login-buttons {
+            min-width: 80%;
+            height: 20%;
+            display: flex;
+            justify-content: end;
+            outline: 2px #424252 solid;
+            
+        }
+        .reg-cont {
+            background-color: #fff;
+            color: #333;
+            border-radius: 5px;
+            border: none;
+            margin-inline: 1%;
+        }
