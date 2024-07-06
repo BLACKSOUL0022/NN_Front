@@ -4,6 +4,10 @@ function Login() {
   return (
     <div className='Container'>
 
+      <div className='links'>
+        <a href="#" className='register-link'>Registrarse</a>
+        <a href="#" className='suggestions-link'>Sugerencias</a>
+      </div>
       <div className="Login">
         <div className='blurredBg'></div>
         
@@ -20,7 +24,7 @@ function Login() {
         <a className='guest' href="#">Ingresar como invitado</a>
         <div className='login-footer'>
           <p className='registerP1'>¿No tienes una cuenta?</p>  
-          <a href="#" className='registerP2'> Crea una aquí</a>
+          <a href="#" className='registerP2'>Crea una aquí</a>
         </div> 
       </div>
       
@@ -28,4 +32,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login; 

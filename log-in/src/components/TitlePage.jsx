@@ -4,7 +4,7 @@ function TitlePage () {
         color: '#fff',
         height: '50px',
         width: '250px',
-        marginLeft: '25px',
+        marginLeft: '40px',
         position: 'absolute',
         fontSize: '40px',
         fontWeight: '100'
